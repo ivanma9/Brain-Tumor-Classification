@@ -40,6 +40,7 @@ def load_sample_images(folder_path="public/samples"):
     return images
 
 def create_sample_gallery():
+    print("SHOW")
     """Create a gallery of sample MRI scans"""
     if 'selected_image' not in st.session_state:
         st.session_state.selected_image = None
