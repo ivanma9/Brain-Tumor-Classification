@@ -25,6 +25,7 @@ if not os.path.exists("public/samples"):
 
 def load_sample_images(folder_path="public/samples"):
     """Load sample images from the public folder"""
+    print("-----------------------------------------------SAMPLE--------------------------------------")
     if not os.path.exists(folder_path):
         st.error(f"Sample images folder not found: {folder_path}")
         return []
