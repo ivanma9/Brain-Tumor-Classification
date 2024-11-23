@@ -28,7 +28,7 @@ def load_sample_images(folder_path="public/samples"):
     if not os.path.exists(folder_path):
         st.error(f"Sample images folder not found: {folder_path}")
         return []
-    
+    print("hi")
     images = []
     for filename in os.listdir(folder_path):
         if filename.lower().endswith(('.png', '.jpg', '.jpeg')):
